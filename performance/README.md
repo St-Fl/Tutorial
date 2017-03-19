@@ -24,6 +24,8 @@ time ./python_test_with_os_mod.py
 
 ### Results
 
+#### Bash
+
 `time ./bash_test_without_-a.sh
 real	0m41.570s
 user	0m35.214s
@@ -36,15 +38,21 @@ sys	0m5.933s`
 
 --> The execution of bash_test_-a.sh is faster then bash_test_without_-a.sh, because it is only forking one process to compare values.
 
+#### Python
+
 `time ./python_test_with_sys_mod.py
 real	0m0.970s
 user	0m0.969s
 sys	0m0.000s`
 
+`time ./python_test_with_os_mod.py
+real	14m53.598s
+user	0m36.407s
+sys	14m17.296s`
+
 --> The execution of python_test_with_sys_mod.py is faster then python_test_with_os_mod.py, because it leaves the /dev/null wirting open instead of opening file for the write operation each time.
 
 Overall the python_test_with_sys_mod.py performs much faster then everything else!
-
 
 ### strace analye
 
