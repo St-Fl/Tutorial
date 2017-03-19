@@ -1,6 +1,6 @@
 Usage:
 
-wget https://raw.githubusercontent.com/St-Fl/Tutorial/test-branch/performance/bash_test_-a.sh<br />
+wget https://raw.githubusercontent.com/St-Fl/Tutorial/test-branch/performance/bash_test_-a.sh<br/>
 wget https://raw.githubusercontent.com/St-Fl/Tutorial/test-branch/performance/bash_test_without_-a.sh
 
 # Make the files executable
