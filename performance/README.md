@@ -23,6 +23,6 @@ sys	0m6.318s`
 `time ./bash_test_-a.sh
 real	0m37.763s
 user	0m31.774s
-sys	0m5.933s``
+sys	0m5.933s`
 
---> The execution of bash_test_-a.sh should be quicker, because it is only forking one process to compare values.
+--> The execution of bash_test_-a.sh should be quicker then bash_test_without_-a.sh, because it is only forking one process to compare values.
