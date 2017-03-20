@@ -52,7 +52,7 @@ sys	14m17.296s`
 
 --> The execution of python_test_with_sys_mod.py is faster then python_test_with_os_mod.py, because it leaves the /dev/null writing open instead of opening file for the write operation each time.
 
-Overall the python_test_with_sys_mod.py performs much faster then everything else!
+##### Overall the python_test_with_sys_mod.py performs much faster then everything else!
 
 ### strace analye
 
